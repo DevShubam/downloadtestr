@@ -2,7 +2,47 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+
+
+<body>
 <h1>Download Testr</h1>
 
 <h3>Okay, so what is "Download Testr"</h3>
@@ -46,6 +86,15 @@ Some Cool and Useful buttons
 Download the files    
 </h1>
 
+	
+
+<h2>Kilobytes</h2>
+
+<p>A Collapsible:</p>
+<button class="collapsible">View Downloads</button>
+<div class="content">
+  <p>Nothing to see here so far.</p>
+</div>
 	
 <!-- Start Placetaking [This will take up a bunch of space, to lower the copyright] Copy and paste it at https://emptycharacter.com 
      All the files should be above this line.
