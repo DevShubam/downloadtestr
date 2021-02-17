@@ -1,1 +1,1 @@
-100 KB: 
+100 KB: ftp://speedtest:speedtest@ftp.otenet.gr/test100k.db
