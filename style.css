@@ -5,22 +5,9 @@ Note: The CSS Below is not finalized, and most likely will be changed in future 
 */
 
 
-/* Below Code is CSS for the head */
-head{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background: #000000;
+/* Below Code is CSS headers */
+
+h1 {
+  color: blue;
+  text-align: center;
 }
-
-
-
-
-/* Below Code is CSS for the body */
-body{
-  margin: 0;
-  padding: 0;
-  font-family: nunito;
-  background: #000000;
-}
-
